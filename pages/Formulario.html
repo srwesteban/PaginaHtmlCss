@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario de Inscripción</title>
+  <link rel="stylesheet" href="/styles/Formulario.css">
+
+</head>
+<body>
+  <nav class="nav-inicio">
+    <a href="/index.html" style="text-decoration: none; color: antiquewhite;">Inicio</a></li>
+  </nav>
+
+  <form action="#" method="POST">
+    <h1>Formulario de Inscripción</h1>
+
+    <label for="tipo_documento">Tipo de documento:</label><br>
+    <select id="tipo_documento" name="tipo_documento">
+      <option value="CC">Cédula de Ciudadanía</option>
+      <option value="CC">Cédula de Extranjeria</option>
+      <option value="CC">Targeta de indentidad</option>
+      <option value="CC">Pasaporte</option>
+    </select><br>
+
+    <label for="numero_documento">Número de documento de identidad:</label><br>
+    <input type="text" id="numero_documento" name="numero_documento" placeholder=" " required><br>
+
+    <label for="campus">Campus:</label><br>
+    <select id="campus" name="campus">
+      <option value="campus1">Pasto</option>
+      <option value="campus2">Medellin</option>
+      <option value="campus2">Santa Martha</option>
+
+    </select><br>
+
+    <label for="programa">Programa:</label><br>
+    <select id="programa" name="programa">
+      <option value="programa1">Ingenieria de software</option>
+      <option value="programa2">Derecho</option>
+      <option value="programa2">Medicina</option>
+      <option value="programa2">Enfermeria</option>
+    </select><br>
+
+    <label for="horario">Horario:</label><br>
+    <select id="horario" name="horario">
+      <option value="horario1">Diurno</option>
+      <option value="horario2">Nocturno</option>
+    </select><br>
+
+    <label for="semestre">Semestre:</label><br>
+    <select id="semestre" name="semestre">
+      <option value="semestre1">Semestre 1</option>
+      <option value="semestre2">Semestre 2</option>
+      <option value="semestre2">Semestre 3</option>
+      <option value="semestre2">Semestre 4</option>
+      <option value="semestre2">Semestre 5</option>
+      <option value="semestre2">Semestre 6</option>
+      <option value="semestre2">Semestre 7</option>
+      <option value="semestre2">Semestre 8</option>
+      <option value="semestre2">Semestre 9</option>
+      <option value="semestre2">Semestre 10</option>
+    </select><br>
+
+    <input type="submit" value="Ingresar">
+  </form>
+</body>
+</html>
